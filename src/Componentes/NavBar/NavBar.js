@@ -15,7 +15,6 @@ export const NavBar = () => {
                         <a className="navBar-enlaces" href="#">Bajos</a>
                         <a className="navBar-enlaces" href="#">Cuerdas</a>
                         <a className="navBar-carrito" href="#"><CartWidget />1</a>
-                        {/* <a className="navBar-enlaces" href="#">1</a> */}
                     </nav>
 
                 </div>
