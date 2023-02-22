@@ -1,11 +1,18 @@
 
 .divCart {
+    max-width: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
-.carrito {
-    max-width: 100px;
-    border-radius: 100%;
+// .carrito {
+//     max-width: 100px;
+//     border-radius: 100%;
+// }
+
+.bi {
+    width: 500px;
+    color: black;
 }
