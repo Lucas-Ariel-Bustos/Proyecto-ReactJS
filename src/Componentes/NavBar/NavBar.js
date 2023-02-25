@@ -14,7 +14,7 @@ export const NavBar = () => {
                         <a className="navBar-enlaces" href="#"><b>Inicio</b></a>
                         <a className="navBar-enlaces" href="#">Bajos</a>
                         <a className="navBar-enlaces" href="#">Cuerdas</a>
-                        <a className="navBar-carrito" href="#"><CartWidget /></a>
+                        <CartWidget />
                     </nav>
 
                 </div>

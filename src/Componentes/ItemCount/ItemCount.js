@@ -19,7 +19,7 @@ export const ItemCount = () => {
     return (
         <div className="container my-5">
             <button onClick={handleClickMas} className="btn btn-primary"><i class="bi bi-plus-lg"></i></button>
-            <p>{counter}</p>
+            <p><b /> {counter} </p>
             <button onClick={handleClickMenos} className="btn btn-primary"><i class="bi bi-dash-lg"></i></button>
         </div>
     )

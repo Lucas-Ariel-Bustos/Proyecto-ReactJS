@@ -4,7 +4,7 @@ export const CartWidget = () => {
     
     return (
         <div className="divCart">
-            <a><i class="bi bi-cart4"></i></a>
+            <a><i className="bi bi-cart4"></i></a>
         </div>
     )
 }
