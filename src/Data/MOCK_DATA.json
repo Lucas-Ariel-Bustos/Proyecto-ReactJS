@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "nombre": "Bajo1",
+        "description": "lorem1",
+        "precio": 1000,
+        "img": {}
+    },
+
+    {
+        "id": 2,
+        "nombre": "Bajo2",
+        "descripcion": "lorem2",
+        "precio": 2000,
+        "img": "#"
+    },
+
+    {
+        "id": 3,
+        "nombre": "Bajo3",
+        "descripcion": "lorem3",
+        "precio": 3000,
+        "img": "#"
+    },
+
+    {
+        "id": 4,
+        "nombre": "Bajo4",
+        "descripcion": "lorem4",
+        "precio": 4000,
+        "img": "#"
+    },
+
+    {
+        "id": 5,
+        "nombre": "Bajo5",
+        "descripcion": "lorem5",
+        "precio": 5000,
+        "img": "#"
+    },
+
+    {
+        "id": 6,
+        "nombre": "BajoB6",
+        "descripcion": "lorem6",
+        "precio": 6000,
+        "img": "#"
+    }
+]

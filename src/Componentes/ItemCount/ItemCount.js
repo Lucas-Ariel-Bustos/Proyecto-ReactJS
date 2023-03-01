@@ -13,14 +13,12 @@ export const ItemCount = () => {
         const handleClickMenos = () => {
             setCounter(counter - 1);
         }
-
-        
-        
+ 
     return (
         <div className="container my-5">
-            <button onClick={handleClickMas} className="btn btn-primary"><i class="bi bi-plus-lg"></i></button>
+            <button onClick={handleClickMas} className="btn btn-primary"><i className="bi bi-plus-lg"></i></button>
             <p><b /> {counter} </p>
-            <button onClick={handleClickMenos} className="btn btn-primary"><i class="bi bi-dash-lg"></i></button>
+            <button onClick={handleClickMenos} className="btn btn-primary"><i className="bi bi-dash-lg"></i></button>
         </div>
     )
 }

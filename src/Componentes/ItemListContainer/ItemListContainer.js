@@ -1,15 +1,39 @@
-import './ItemListContainer.scss';
-import { ItemCount } from '../ItemCount/ItemCount.js';
+import { useEffect } from 'react'
+import { useState } from 'react'
+import './ItemListContainer.scss'
+import { pedirDatos } from '../helpers/PedirDatos'
+import { ItemList } from '../ItemList/ItemList'
 
 
-export const ItemListContainer = ({greeting}) => {
+const ItemListContainer = () => {
+
+    const [productos, setProductos] = useState([])
+    const [loading, setLoading] = useState(true)
+    
+    useEffect(() => {
+        
+        pedirDatos()
+            .then((response) => {
+                setProductos( response )
+            })
+            .catch((error) => {
+                console.log(error)
+            })
+            .finally(() => {
+                setLoading(false)
+            })
+    }, [])
 
     return (
-        <div className="divContenedor">
-            <h1>En este espacio apareceran mis productos a la venta</h1>
-            {greeting}
-
-            <ItemCount />
+        <div className="contenedor">
+            {
+                loading
+                    ? <h2>Cargando...</h2>
+                    : <ItemList items={productos}/>
+            }
+            
         </div>
     )
 }
+
+export default ItemListContainer
