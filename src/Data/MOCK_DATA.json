@@ -1,49 +1,109 @@
 [
     {
         "id": 1,
-        "nombre": "Bajo1",
+        "nombre": "Bajo 1",
         "descripcion": "lorem1",
         "precio": 1000,
-        "img": "/Bajo1.jpg"
+        "img": "/Bajo1.jpg",
+        "category":"Bajos"
     },
 
     {
         "id": 2,
-        "nombre": "Bajo2",
+        "nombre": "Bajo 2",
         "descripcion": "lorem2",
         "precio": 2000,
-        "img": "/Bajo2.jpg"
+        "img": "/Bajo2.jpg",
+        "category":"Bajos"
     },
 
     {
         "id": 3,
-        "nombre": "Bajo3",
+        "nombre": "Bajo 3",
         "descripcion": "lorem3",
         "precio": 3000,
-        "img": "/Bajo3.jpg"
+        "img": "/Bajo3.jpg",
+        "category":"Bajos"
     },
 
     {
         "id": 4,
-        "nombre": "Bajo4",
+        "nombre": "Bajo 4",
         "descripcion": "lorem4",
         "precio": 4000,
-        "img": "/Bajo4.jpg"
+        "img": "/Bajo4.jpg",
+        "category":"Bajos"
     },
 
     {
         "id": 5,
-        "nombre": "Bajo5",
+        "nombre": "Bajo 5",
         "descripcion": "lorem5",
         "precio": 5000,
-        "img": "/Bajo5.jpg"
+        "img": "/Bajo5.jpg",
+        "category":"Bajos"
     },
 
     {
         "id": 6,
-        "nombre": "Bajo6",
+        "nombre": "Bajo 6",
         "descripcion": "lorem6",
         "precio": 6000,
-        "img": "/Bajo6.jpg"
+        "img": "/Bajo6.jpg",
+        "category":"Bajos"
+    },
+
+    {
+        "id": 7,
+        "nombre": "Cuerdas 1",
+        "descripcion": "lorem7",
+        "precio": 1000,
+        "img": "/Bajo7.jpg",
+        "category":"Cuerdas"
+    },
+
+    {
+        "id": 8,
+        "nombre": "Cuerdas 2",
+        "descripcion": "lorem7",
+        "precio": 2000,
+        "img": "/Bajo8.jpg",
+        "category":"Cuerdas"
+    },
+
+    {
+        "id": 9,
+        "nombre": "Cuerdas 3",
+        "descripcion": "lorem9",
+        "precio": 3000,
+        "img": "/Bajo9.jpg",
+        "category":"Cuerdas"
+    },
+
+    {
+        "id": 10,
+        "nombre": "Cuerdas 4",
+        "descripcion": "lorem10",
+        "precio": 4000,
+        "img": "/Bajo10.jpg",
+        "category":"Cuerdas"
+    },
+
+    {
+        "id": 11,
+        "nombre": "Cuerdas 5",
+        "descripcion": "lorem11",
+        "precio": 5000,
+        "img": "/Bajo11.jpg",
+        "category":"Cuerdas"
+    },
+
+    {
+        "id": 12,
+        "nombre": "Cuerdas 6",
+        "descripcion": "lorem12",
+        "precio": 6000,
+        "img": "/Bajo12.jpg",
+        "category":"Cuerdas"
     }
 ]
