@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Item.scss'
 
 export const Item = ( {item} ) => {
@@ -8,7 +9,7 @@ export const Item = ( {item} ) => {
             <h4>{item.nombre}</h4>
             {/* <p>{item.descripcion}</p>
             <p>Precio: <strong>${item.precio}</strong></p> */}
-            <button className='btn btn-primary'>Ver más</button>
+            <Link to={`/detail/${item.id}`} className='btn btn-primary'>Ver más</Link>
         </div>
     )
 }

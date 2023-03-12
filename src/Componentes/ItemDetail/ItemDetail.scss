@@ -1,6 +1,9 @@
-.itenDetailContainer {
+.itemDetailContainer {
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-bottom: 100px;
     width: 500px;
-    height: 500px;
+    height: 700px;
     background-color: rgb(220, 210, 210);
     border: black solid 1px;
     border-radius: 10px;
@@ -10,11 +13,12 @@
     align-items: center;
     gap: 20px;
 
-    .imagen {
-        margin-top: 0px;
+    .nombreDetail {
+        margin-top: 30px;
+    }
+
+    .detailImg {
         width: 250px;
-        height: 250px;
-        border: black solid 1px;
-        border-radius: 10px;
+        border-radius: 10%;
     }
 }
