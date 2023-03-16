@@ -5,7 +5,8 @@
         "descripcion": "lorem1",
         "precio": 1000,
         "img": "/Bajo1.jpg",
-        "category":"bajos"
+        "category":"bajos",
+        "stock": 25
     },
 
     {
@@ -14,7 +15,8 @@
         "descripcion": "lorem2",
         "precio": 2000,
         "img": "/Bajo2.jpg",
-        "category":"bajos"
+        "category":"bajos",
+        "stock": 35
     },
 
     {
@@ -23,7 +25,8 @@
         "descripcion": "lorem3",
         "precio": 3000,
         "img": "/Bajo3.jpg",
-        "category":"bajos"
+        "category":"bajos",
+        "stock": 45
     },
 
     {
@@ -32,7 +35,8 @@
         "descripcion": "lorem4",
         "precio": 4000,
         "img": "/Bajo4.jpg",
-        "category":"bajos"
+        "category":"bajos",
+        "stock": 55
     },
 
     {
@@ -41,7 +45,8 @@
         "descripcion": "lorem5",
         "precio": 5000,
         "img": "/Bajo5.jpg",
-        "category":"bajos"
+        "category":"bajos",
+        "stock": 66
     },
 
     {
@@ -50,7 +55,8 @@
         "descripcion": "lorem6",
         "precio": 6000,
         "img": "/Bajo6.jpg",
-        "category":"bajos"
+        "category":"bajos",
+        "stock": 38
     },
 
     {
@@ -59,7 +65,8 @@
         "descripcion": "lorem7",
         "precio": 1000,
         "img": "/Bajo7.jpg",
-        "category":"cuerdas"
+        "category":"cuerdas",
+        "stock": 44
     },
 
     {
@@ -68,7 +75,8 @@
         "descripcion": "lorem7",
         "precio": 2000,
         "img": "/Bajo8.jpg",
-        "category":"cuerdas"
+        "category":"cuerdas",
+        "stock": 23
     },
 
     {
@@ -77,7 +85,8 @@
         "descripcion": "lorem9",
         "precio": 3000,
         "img": "/Bajo9.jpg",
-        "category":"cuerdas"
+        "category":"cuerdas",
+        "stock": 71
     },
 
     {
@@ -86,7 +95,8 @@
         "descripcion": "lorem10",
         "precio": 4000,
         "img": "/Bajo10.jpg",
-        "category":"cuerdas"
+        "category":"cuerdas",
+        "stock": 12
     },
 
     {
@@ -95,7 +105,8 @@
         "descripcion": "lorem11",
         "precio": 5000,
         "img": "/Bajo11.jpg",
-        "category":"cuerdas"
+        "category":"cuerdas",
+        "stock": 46
     },
 
     {
@@ -104,6 +115,7 @@
         "descripcion": "lorem12",
         "precio": 6000,
         "img": "/Bajo12.jpg",
-        "category":"cuerdas"
+        "category":"cuerdas",
+        "stock": 16
     }
 ]

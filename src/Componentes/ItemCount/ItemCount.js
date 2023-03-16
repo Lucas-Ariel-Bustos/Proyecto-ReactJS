@@ -1,24 +1,23 @@
-import { useState } from 'react';
 import './ItemCount.scss';
 
 
-export const ItemCount = () => {
-
-        let [counter, setCounter] = useState(0)                         
+export const ItemCount = ( {max, cantidad, setCantidad, handleAgregar} ) => {
+                         
         const handleClickMas = () => {
-            setCounter(counter + 1);
+            cantidad < max && setCantidad(cantidad + 1)
         }
 
-        [counter, setCounter] = useState(0)
         const handleClickMenos = () => {
-            setCounter(counter - 1);
+            cantidad > 1 && setCantidad(cantidad - 1)
         }
  
     return (
         <div className="container my-5">
-            <button onClick={handleClickMas} className="btn btn-primary"><i className="bi bi-plus-lg"></i></button>
-            <p><b /> {counter} </p>
             <button onClick={handleClickMenos} className="btn btn-primary"><i className="bi bi-dash-lg"></i></button>
+            <p><b /> {cantidad} </p>
+            <button onClick={handleClickMas} className="btn btn-primary"><i className="bi bi-plus-lg"></i></button>
+            <br/>
+            <button onClick={handleAgregar} className='botonAgregar btn btn-dark my-1'>Agregar al carrito</button>
         </div>
     )
 }

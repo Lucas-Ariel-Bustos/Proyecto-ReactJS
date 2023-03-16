@@ -1,9 +1,10 @@
-import { useEffect } from 'react';
+import { useContext, useEffect } from 'react';
 import { useState } from 'react';
 import './ItemListContainer.scss';
 import { pedirDatos } from '../helpers/PedirDatos';
 import { ItemList } from '../ItemList/ItemList';
 import { useParams } from 'react-router-dom';
+import { CartContext } from '../Context/CartContext';
 
 const ItemListContainer = () => {
 
