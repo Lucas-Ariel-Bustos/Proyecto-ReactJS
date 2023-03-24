@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "nombre": "Bajo 1",
-        "descripcion": "lorem1",
+        "nombre": "Bajo Corts Jazz Bass",
+        "descripcion": "Cort Jazz Bass Negro, Con 5 cuerdas, sistema activo",
         "precio": 1000,
         "img": "/Bajo1.jpg",
         "category":"bajos",
@@ -11,8 +11,8 @@
 
     {
         "id": 2,
-        "nombre": "Bajo 2",
-        "descripcion": "lorem2",
+        "nombre": "Bajo Squier Jazz bass",
+        "descripcion": "Bajo Squier Jazz Bass - 5 cuerdas - Pasivo",
         "precio": 2000,
         "img": "/Bajo2.jpg",
         "category":"bajos",
@@ -21,8 +21,8 @@
 
     {
         "id": 3,
-        "nombre": "Bajo 3",
-        "descripcion": "lorem3",
+        "nombre": "Bajo Jazz Bass Fender",
+        "descripcion": "Bajo de origen americano, Jazz Bass, cuatro cuerdas, Pasivo",
         "precio": 3000,
         "img": "/Bajo3.jpg",
         "category":"bajos",

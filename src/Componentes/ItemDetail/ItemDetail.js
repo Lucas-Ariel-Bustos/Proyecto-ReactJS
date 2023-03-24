@@ -4,6 +4,7 @@ import { ItemCount } from '../ItemCount/ItemCount';
 import './ItemDetail.scss';
 import { useState, useContext } from 'react';
 import { CartContext } from '../Context/CartContext';
+import { LowStockMsg } from '../LowStockMsg/LowStockMsg';
 
 
 export const ItemDetail = ({ item }) => {
@@ -30,6 +31,15 @@ export const ItemDetail = ({ item }) => {
             <img className="detailImg" src={item.img}></img>
             <p className="detailText">{item.descripcion}</p>
             <p>Precio: ${item.precio}</p>
+            { item.stock <= 5 && <LowStockMsg stock={item.stock}/>} 
+            <p><strong>
+                {
+                    item.stock === 1
+                    ? `Queda una sola unidad de este producto`
+                    : `Quedan ${item.stock} unidades de este producto`
+                }
+            </strong></p>
+        
 
             {
                 isInCart(item.id)
@@ -37,11 +47,11 @@ export const ItemDetail = ({ item }) => {
                 :   <ItemCount 
                         max={item.stock}
                         cantidad={cantidad}
-                        setCantida={setCantidad}
+                        setCantidad={setCantidad}
                         handleAgregar={handleAgregar}
                     />
             }
-            <Link onClick={handleVolver} className='btn btn-primary'>Volver</Link>
+            <Link onClick={handleVolver} className='btn btn-primary volver'>Volver</Link>
         </div>
     )
 }

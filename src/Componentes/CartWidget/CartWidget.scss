@@ -1,13 +1,23 @@
-
 .divCart {
     max-width: 300px;
+    color: aliceblue;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    visibility: hidden;
 }
 
-.bi {
-    width: 500px;
-    color: black;
+.divCart-active {
+    visibility: visible;
+}
+
+.cart {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+
+    .numero {
+        font-size: 100px;
+        color: aliceblue;
+    }
 }

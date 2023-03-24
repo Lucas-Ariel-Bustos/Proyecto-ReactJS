@@ -14,7 +14,7 @@ export const ItemCount = ( {max, cantidad, setCantidad, handleAgregar} ) => {
     return (
         <div className="container my-5">
             <button onClick={handleClickMenos} className="btn btn-primary"><i className="bi bi-dash-lg"></i></button>
-            <p><b /> {cantidad} </p>
+            <p className='numeroContador'><b /> {cantidad} </p>
             <button onClick={handleClickMas} className="btn btn-primary"><i className="bi bi-plus-lg"></i></button>
             <br/>
             <button onClick={handleAgregar} className='botonAgregar btn btn-dark my-1'>Agregar al carrito</button>

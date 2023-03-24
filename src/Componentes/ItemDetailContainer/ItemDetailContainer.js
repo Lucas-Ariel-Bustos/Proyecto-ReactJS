@@ -1,7 +1,9 @@
 import ItemDetail from '../ItemDetail/ItemDetail.js';
 import React, { useState, useEffect } from 'react';
-import { useParams } from "react-router-dom"
+import { useParams } from "react-router-dom";
 import { pedirDatosProductoId } from '../helpers/PedirDatos';
+import { doc,getDoc } from 'firebase/firestore';
+import { db } from '../Firebase/Config.js';
 
 
 export const ItemDetailContainer= () => {
@@ -14,13 +16,16 @@ export const ItemDetailContainer= () => {
     useEffect(() => {
         setLoading(true)
 
-        pedirDatosProductoId( Number(itemId) )
-        .then((resp) => {
-            setItem(resp)
-        })
-        .finally(() => {
-            setLoading(false)
-        })
+        const docReferencia = doc(db, "productos", itemId)
+        getDoc(docReferencia)
+            .then((doc) => {
+                setItem({
+                    id: doc.id,
+                    ...doc.data()
+                }) 
+            })
+            .finally(() => setLoading(false))
+       
     }, [])
 
     return(
@@ -33,27 +38,3 @@ export const ItemDetailContainer= () => {
         </div>
     )
 }
-
-
-
-// export const ItemDetailContainer= () => {
-
-//     const [itemDetail, setItemDetail] = useState(null);
-//     const [loading, setLoading] = useState(true)
-    
-//     useEffect(() => {
-//         const getData = new Promise((resolve, reject) => {
-//                 setTimeout(() => {
-//                     resolve(detalle)
-//                 }, 2000);
-//             });
-//             getData.then(res => setData(res));
-//     }, [])
-    
-
-//     return(
-//         <ItemDetail data={data}/>
-//     )
-// }
-
-// export default ItemDetailContainer;

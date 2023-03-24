@@ -1,0 +1,17 @@
+.contenedorCompra {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .inputCarrito {
+        width: 80%;
+        height: 40px;
+    }
+
+    .enviar {
+        width: 50px;
+        color: rgb(255, 255, 255);
+        background-color: aqua;
+    }
+}

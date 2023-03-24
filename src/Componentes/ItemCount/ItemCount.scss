@@ -1,7 +1,12 @@
 .container {
    width: 20px;
    display: flex;
-   justify-content: center;
    align-items: center;
+   justify-content: center;
    gap: 10px;
+
+   .numeroContador {
+      width: 100px;
+      border: solid 1px black;
+   }
 }
