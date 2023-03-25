@@ -1,12 +1,14 @@
 .container {
    width: 20px;
    display: flex;
+   text-align: center;
    align-items: center;
    justify-content: center;
    gap: 10px;
 
    .numeroContador {
+      font-size: 25px;
       width: 100px;
-      border: solid 1px black;
+      background-color: azure;
    }
 }

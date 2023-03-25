@@ -1,6 +1,4 @@
 
-
-
 export const LowStockMsg = ({stock}) => {
     
     return(
