@@ -7,6 +7,7 @@ import { ItemDetailContainer } from './Componentes/ItemDetailContainer/ItemDetai
 import { CartProvider } from './Componentes/Context/CartContext';
 import { Cart } from './Componentes/Cart/Cart';
 import { Checkout } from './Componentes/Checkout/Checkout';
+import Footer from './Componentes/Footer/Footer';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
             {/* <ItemDetailContainer /> */}
           </Routes>
         </BrowserRouter>
+        <Footer />
       </CartProvider>
   );
 }

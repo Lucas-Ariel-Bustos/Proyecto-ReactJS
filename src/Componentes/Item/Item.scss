@@ -9,11 +9,13 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    box-shadow: 5px 5px 10px black;
 
     .imagen {
         margin-top: 0px;
-        width: 80%;
-        border: black solid 1px;
+        width: 250px;
+        height: 250px;
+        border: black solid 0.5px;
         border-radius: 10px;
     }
 }

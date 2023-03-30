@@ -1,0 +1,31 @@
+.footer {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+
+        .enlacesContactos {
+            text-decoration: none;
+
+            .bi-instagram {
+                font-size: 20px;
+                color: rgb(121, 13, 65);
+            }
+        
+            .bi-facebook {
+                font-size: 20px;
+                color: rgb(26, 13, 121);
+            }
+        
+            .bi-whatsapp {
+                text-decoration: none;
+                font-size: 20px;
+                color: rgb(10, 96, 39);
+            }
+        }
+    }  
+}
