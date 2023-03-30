@@ -20,12 +20,20 @@
                 font-size: 20px;
                 color: rgb(26, 13, 121);
             }
-        
+        }
+    }
+    
+    .contactos {
+        display: flex;
+        flex-direction: column;
+
+        .enlaceContactoWhatsApp {
+            text-decoration: none;
+            
             .bi-whatsapp {
-                text-decoration: none;
                 font-size: 20px;
                 color: rgb(10, 96, 39);
             }
-        }
-    }  
+        }   
+    }
 }

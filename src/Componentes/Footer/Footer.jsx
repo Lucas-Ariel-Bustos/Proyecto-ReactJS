@@ -14,9 +14,13 @@ export default function Footer() {
               <i class="bi bi-facebook"> facebook</i>
             </a> 
           </div>
-          <div>
-            <a className='enlacesContactos' href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"> 231000654</i></a>
-            <p>Tienda física en calle Nolose 123- Ciudad de Mendoza</p>
+          <div className='contactos'>
+            <a className='enlaceContactoWhatsApp' href="https://.whatsapp.com" target="_blank">
+              <i class="bi bi-whatsapp"> 231000654</i>
+            </a>
+            <i class="bi bi-house">
+              <p>Tienda física en calle Nolose 123- Ciudad de Mendoza</p>
+            </i>
           </div>
         </div>
     </div>

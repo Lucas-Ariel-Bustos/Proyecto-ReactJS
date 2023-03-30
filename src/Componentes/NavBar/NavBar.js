@@ -12,7 +12,6 @@ export const NavBar = () => {
                     <Link to="/">
                         <img src={logo} className="logo"></img>
                     </Link>
-
                     <nav className="navBar">
                         <Link to="/" className="navBar-enlaces" ><b>Inicio</b></Link>
                         <Link to="productos/bajos" className="navBar-enlaces" >Bajos</Link>
