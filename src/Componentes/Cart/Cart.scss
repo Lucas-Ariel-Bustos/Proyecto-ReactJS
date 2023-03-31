@@ -33,15 +33,9 @@
         border: black 10px;
         box-shadow: 1px 1px rgb(226, 213, 213);
       }
-      // .imagenProductoCarrito:hover {
-      //   position: relative;
-      //   z-index: 1;
-      //   width: 300px;
-      //   transition: all 3s;
-      // }
 
       .botonEliminar {
-        width: 30%;
+        width: 80%;
         background-color: rgb(228, 193, 193);
         border-radius: 10%;
       }
@@ -71,7 +65,7 @@
     font-size: 50px;
     color: rgb(255, 255, 255);
     width: 500px;
-    height: 100px;
+    height: 80px;
     background-color: rgb(13, 58, 66);
     text-decoration: none;
     border: 2px solid rgb(13, 58, 66);

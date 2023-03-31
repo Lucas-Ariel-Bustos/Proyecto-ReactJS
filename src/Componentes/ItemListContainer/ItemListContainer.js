@@ -12,7 +12,6 @@ const ItemListContainer = () => {
     const [productos, setProductos] = useState([])
     const [loading, setLoading] = useState(true)
     
-
     const { categoryId }= useParams()
     
     useEffect(() => {
@@ -37,21 +36,11 @@ const ItemListContainer = () => {
 
     return (
         <div className="contenedor">
-            {/* {
+            {
                 loading
                     ? <h2>Cargando...</h2>
                     : <ItemList items={productos}/>
-            } */}
-
-            {
-                        loading
-                            ? <h2>Cargando...</h2>
-                            : <>
-                            {categoryId && <h2>{categoryId}</h2>}
-                            <ItemList items={productos}/>
-                            </>
-                }
-            
+            }
         </div>
     )
 }
