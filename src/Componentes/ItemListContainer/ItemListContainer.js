@@ -1,9 +1,8 @@
-import { useContext, useEffect } from 'react';
+import { useEffect } from 'react';
 import { useState } from 'react';
 import './ItemListContainer.scss';
 import { ItemList } from '../ItemList/ItemList';
 import { useParams } from 'react-router-dom';
-import { CartContext } from '../Context/CartContext';
 import { collection, getDocs, query, where } from 'firebase/firestore';
 import { db } from '../Firebase/Config';
 

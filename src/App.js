@@ -25,10 +25,6 @@ function App() {
             <Route path='/cart' element={ <Cart /> } />
             <Route path='/checkout' element={ <Checkout /> } />
             <Route path='*' element={ <Navigate to="/" /> } />
-            {/* <Route path='/Bajos' element={ <ItemListContainer /> }/>
-            <Route path='/Cuerdas' element={ <ItemListContainer /> }/> */}
-
-            {/* <ItemDetailContainer /> */}
           </Routes>
         </BrowserRouter>
         <Footer />
